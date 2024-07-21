@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(206, 203, 203);
+}
+.header{
+    border: 0px solid red;
+    padding: 5px;
+    background-color: white;
+}
+
+.header h1{
+    width: 600px;
+    border: 0px solid red;
+    margin: 0px auto;
+    
+}
+
+.post{
+    border: 0px solid black;
+    width: 600px;
+    margin: 30px auto;
+    margin-top: 30px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post-image img{
+width: 100%;
+}
+
+.post-footer{
+    padding: 0px 10px;
+
+}
+
